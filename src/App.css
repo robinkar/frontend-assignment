@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+
+header {
+    background-color: #222222;
+    color: #999999;
+    padding: 10px;
+    font-size: 20px;
+}
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputBox {
+  margin: 10px;
+}
+
+.dateInput {
+  height: 40px;
+  margin: 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.textInput {
+  height: 40px;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 0px 5px 0px 5px;
+  box-sizing: border-box;
+}
+
+.fetchButton {
+  height: 40px;
+  padding: 0px 20px 0px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoBox {
+    color: #000;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #EDEDED;
+    margin: 10px;
+    flex: 1;
+    max-width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.infoBox span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.dataTable {
+  color: #000;
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  margin: 10px;
+}
+
+.dataTable thead {
+  background: #F8F8F8;
+}
+
+.dataTable th {
+  background: #F8F8F8;
+  padding: 10px;
+}
+
+.dataTable td {
+  padding: 10px;
+}
+
+
+.dataTable tr {
+  border-top: 2px solid #EDEDED;
+  border-bottom: 2px solid #EDEDED;
+  padding: 5px;
+}
+
+.pagination {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 288px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.pagination li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 1px #EDEDED solid;
+  border-collapse: collapse;
+  padding: 5px;
+  line-height: 20px;
+  color: #3d8bcd;
+  font-weight: bold;
+  cursor: default;
+}
+
+.pagination .currentPage {
+  background-color: #3d8bcd;
+  color: #FFF;
+  border: 1px #3d8bcd solid;
+}
+
+.pagination .nextPage {
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-right: 0.5px #EDEDED solid;
+}
+
+.pagination .prevPage {
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+
+.pagination a {
+  color: #3d8bcd;
+}
+
+.currentPage a {
+  color: #FFF;
+}
+
+.errorMessage {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
